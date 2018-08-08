@@ -1,0 +1,40 @@
+body{}
+
+/*avatar1*/
+.Avatar1 {
+  vertical-align: left;
+  width: 200px;
+  height: 200px;
+}
+/*avatar2*/
+.Avatar2 {
+  vertical-align: right;
+  width: 200px;
+  height: 200px;
+}
+
+
+/*avatar screen*/{
+  margin: auto;
+  margin-top: 50px;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  color: white;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+img {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.img1 {
+  z-index: 1;
+}
+
+.img2 {
+  z-index: 3;
+}
