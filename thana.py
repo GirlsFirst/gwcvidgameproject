@@ -1,13 +1,29 @@
-import pygame
+import pygame, sys
+from pygame.locals import *
+
 pygame.init()
 
-size = (700, 500)
+pygame.display.set_caption('Our Video Game Project')
+size = [640, 480]
 screen = pygame.display.set_mode(size)
-pygame.display.set_caption("The Chronicles of Thana")
 
-carryOn = True
+clock = pygame.time.Clock()
 
-while carryOn:
+basicfont = pygame.font.SysFont("04b03", 35)
+text = basicfont.render('The Thrilling Chronicles of Thana', True, (225, 225, 225), (0, 0, 0))
+textrect = text.get_rect()
+textrect.centerx = screen.get_rect().centerx
+textrect.centery = screen.get_rect().centery
+
+screen.fill((0, 0, 0))
+screen.blit(text, textrect)
+
+pygame.display.update()
+
+while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            carryOn = False
+            pygame.quit()
+            sys.exit()
+
+    clock.tick(20)
