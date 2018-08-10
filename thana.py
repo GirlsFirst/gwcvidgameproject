@@ -3,7 +3,7 @@ from pygame.locals import *
 
 pygame.init()
 
-pygame.display.set_caption('Our Video Game Project')
+pygame.display.set_caption('The Thrilling Chronicles of Thana')
 size = [640, 480]
 screen = pygame.display.set_mode(size)
 
