@@ -1,0 +1,85 @@
+.navbar {
+	margin-bottom: 0;
+}
+body {
+	background: #36213E;
+	color: #f7f7f7;
+  font-family: 'Old Standard TT', serif;
+}
+h1,
+h2 {
+	font-weight: bold;
+}
+p {
+	font-size: 16px;
+	color: #cdcdcd;
+}
+.jumbotron {
+	background: #63768D;
+	color: white;
+	text-align: center;
+}
+.jumbotron p {
+	color: white;
+	font-size: 26px;
+}
+.navbar-inverse {
+	background: #2E2F31;
+	border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #f7f7f7;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	background: #27A967;
+}
+.btn-primary {
+	color: #fff;
+	background-color: transparent;
+	border-color: white;
+	margin-bottom: 5px;
+}
+.btn-primary:hover {
+	color: #27A967;
+	background-color: white;
+	border-color: white;
+}
+.jumbotron {
+ background-image: url(original.jpg);
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.jumbotron-billboard .img {
+    margin-bottom: 0px;
+    opacity: 0.4;
+    color: #fff;
+    background: #000 url("https://data.whicdn.com/images/310499483/original.jpg?t=1523379426") top center no-repeat;
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.jumbotron h2 {margin-top:0;}
+.jumbotron {
+  position:relative;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
