@@ -1,0 +1,17 @@
+body {
+  background-color: #9D75CB;
+  font-family: 'Old Standard TT', serif;
+  color: white;
+}
+img{
+  height: 200px;
+  width: 150px;
+}
+ .vertical-text {
+   writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  -ms-writing-mode: sideways-lr;
+   bottom:0;
+   width: 300px;
+   height: 300px;
+}
