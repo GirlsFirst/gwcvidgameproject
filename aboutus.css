@@ -1,0 +1,28 @@
+body {
+  background-color: #7B5987;
+  font-family: 'Old Standard TT', serif;
+  color: white;
+}
+img{
+  height: 200px;
+  width: 150px;
+}
+ .vertical-text {
+   writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  -ms-writing-mode: sideways-lr;
+   bottom:0;
+   width: 200px;
+   height: 400px;
+}
+.navbar-inverse {
+	background: #2E2F31;
+	border: 0;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #f7f7f7;
+	font-size: 16px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	background: #7E52A0;
+}
