@@ -19,3 +19,10 @@ body {
 .navbar-inverse .navbar-nav li a:hover {
 	background: #7E52A0;
 }
+
+.scratch {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:  50%;
+}
