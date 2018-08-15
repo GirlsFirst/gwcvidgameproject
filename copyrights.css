@@ -5,6 +5,8 @@ body {
   color: white;
   text-align: center;
 }
+
+}
 .navbar-inverse {
 	background: #2E2F31;
 	border: 0;
@@ -17,6 +19,9 @@ body {
 	background: #7E52A0;
 }
 
-h3{
+h2, h3{
   text-align: left;
+  padding-top: 50px;
+     padding-right: 30px;
+     padding-left: 80px;
 }
