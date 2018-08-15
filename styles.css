@@ -72,7 +72,7 @@ blockquote, blockquote p {
     color: #fff;
     background: #000 url("https://data.whicdn.com/images/310499483/original.jpg?t=1523379426");
     background-repeat: no-repeat;
-    width: 250%;
+		width: 100%;
     height: 250%;
     background-size: contain;
     overflow: hidden;
@@ -99,3 +99,15 @@ blockquote, blockquote p {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+}
+.learnButton {
+	background-color: white;
+	text-decoration-color: black;
+	padding: 16px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+		width:20%;
+		margin: 0 auto;
+
+}
