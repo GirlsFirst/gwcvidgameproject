@@ -25,3 +25,7 @@ h2, h3{
      padding-right: 30px;
      padding-left: 80px;
 }
+
+ul {
+  text-align:left;
+}
