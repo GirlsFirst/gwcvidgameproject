@@ -2,23 +2,8 @@
 body {
   background-color: #362545;
   font-family: 'Old Standard TT', serif;
-}
-.navbar-inverse {
-	background: #2E2F31;
-	border: 0;
-}
-.navbar-inverse .navbar-nav li a {
-	color: #f7f7f7;
-	font-size: 16px;
-}
-.navbar-inverse .navbar-nav li a:hover {
-	background: #7E52A0;
-}
-=======
-body {
-  background-color: #362545;
-  font-family: 'Old Standard TT', serif;
   color: white;
+  text-align: center;
 }
 .navbar-inverse {
 	background: #2E2F31;
@@ -31,4 +16,7 @@ body {
 .navbar-inverse .navbar-nav li a:hover {
 	background: #7E52A0;
 }
->>>>>>> origin/master
+
+h3{
+  text-align: left;
+}
